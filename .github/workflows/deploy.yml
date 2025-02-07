@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "diabloaltma-gemini-next-37"
+          project: "diabloaltma-gemini-next-72"
           entrypoint: "jsr:@deno/nextjs-start"
           root: "."
-          
+          include: .next, public
           

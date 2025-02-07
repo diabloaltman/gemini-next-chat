@@ -40,5 +40,5 @@ jobs:
           project: "diabloaltma-gemini-next-37"
           entrypoint: "jsr:@deno/nextjs-start"
           root: "."
-          include: .next, public
+          
           
